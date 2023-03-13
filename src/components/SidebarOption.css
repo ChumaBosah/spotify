@@ -1,0 +1,9 @@
+.sidebarOption {
+    cursor: pointer;
+    padding: 13px;  
+    transition: 180ms ease-in ;
+}
+.sidebarOption:hover {
+    background-color: black;
+    border-radius: 9px;
+}

@@ -1,0 +1,42 @@
+.fav-artist {
+    position: absolute;
+    margin-left: 700px;
+    margin-top: 160px;
+}
+.artist-info {
+    padding: 10px;
+    font-size: 16px;
+}
+#taylor {
+    height: 33px;
+    width: 33px;
+    object-fit: contain;
+    border-radius: 16px;
+}
+#kanye {
+    height: 33px;
+    width: 33px;
+    object-fit: contain;
+    border-radius: 16px;
+}
+#drake {
+    height: 33px;
+    width: 33px;
+    object-fit: contain;
+    border-radius: 16px;
+}
+.taylor {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+.kanye {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+.drake {
+    display: flex;
+    align-items: center;
+    margin-top: 37px;
+}

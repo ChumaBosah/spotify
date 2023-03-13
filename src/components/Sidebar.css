@@ -1,0 +1,59 @@
+.sidebar {
+    height: 2856px;
+    background-color: whitesmoke;
+    min-width: 230px;
+    flex: 20%;
+    color: grey;
+    padding-left:25px;
+    padding-right: 25px;
+    cursor: pointer;
+    
+}
+
+.logo {
+    height: 120px;
+}
+#discover {
+    padding: 13px;
+}
+.new {
+    padding: 13px;
+}
+.calender {
+    padding: 13px;
+}
+.events {
+    padding: 13px;
+}
+
+.all :hover {
+    transition: 180ms ease-in;
+   background-color: black;
+   border-radius: 9px;
+}
+#collection {
+    padding: 13px;
+}
+.songs {
+    padding: 13px;
+}
+.artists {
+    padding: 13px;
+}
+.albums {
+    padding: 13px;
+}
+.favorites :hover {
+    background-color: black;
+    border-radius: 9px;
+}
+.sidebar-title {
+    margin-left: 10px;
+    padding: 5px;
+    font-size: 10px;
+}
+.sidebar > hr {
+    border: 1px solid grey;
+    width: 90%;
+    margin: 10px auto;
+}

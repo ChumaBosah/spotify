@@ -1,0 +1,108 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    bottom: 0;
+    height: 60px;
+    width: 97%;
+    border-top: none;
+    padding: 20px;   
+}
+.footer-left {
+    display: flex;
+    align-items:center;
+    max-width: 300px;
+}
+.footer-right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-center {
+    display: flex;
+    align-items: center;
+    border: 1px solid whitesmoke;
+    border-radius: 7px;
+    width: 450px;
+    height: 67px;
+    background-color: whitesmoke;
+    margin-left: 180px;
+}
+.footer-icon {
+    margin-left: 140px;
+    padding: 15px;
+}
+
+#shuffle {
+    padding-left: 18px ;
+    padding-bottom: 5px;font-size: x-large; font-size: larger,
+}
+#next {
+    padding-left: 18px;
+    font-size: x-large;
+    padding-bottom: 5px;
+}
+#play {
+   font-size: 35px;
+   padding-top: 5px;
+  
+   
+}
+#previous {
+    padding-right: 18px;
+    padding-bottom: 5px;
+    font-size: x-large;
+}
+#repeat {
+    padding-right: 18px;
+    padding-bottom: 5px;
+    font-size: x-large;
+  
+}
+
+.right-icons {
+    display: flex;
+    align-items: center;
+    border: 1px solid whitesmoke;
+    border-radius: 7px;
+    height: 37px;
+    width: 220px;
+    background-color: whitesmoke;
+    margin-right: 70px;
+    margin-top: 17px;
+}
+#list {
+    padding-left: 25px;
+    font-size: x-large;
+}
+#down {
+    padding-left: 25px;
+    font-size: x-large;
+}
+#slide {
+    padding-left: 25px;
+    font-size: x-large;
+}
+#up {
+    padding-left: 25px;
+    font-size: x-large;
+}
+.album-logo {
+    height: 55px;
+    width: 55px;
+    object-fit: contain;
+    margin-right: 20px;
+}
+.song-info > h4 {
+margin-bottom: 5px;
+}
+.song-info > p {
+    font-size: 12px;
+}
+.footer-icon :hover,
+.right-icons :hover {
+    transition: transform 0.2s ease-in-out;
+    transform: scale(1.2) !important;
+}
+
